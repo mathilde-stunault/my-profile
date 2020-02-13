@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro:300,400,600&display=swap');
+
+a {
+	text-decoration: none;
+	color: #ff9456
+}
+
+a:hover {
+	color: #ffb677;
+	transition: 0.5s;
+}
+
+body {
+	background-color: #edf7fa;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+h1{
+	font-size: 28px;
+	letter-spacing: 2.5px;
+}
+
+h2{
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	color: #5f6caf;
+	line-height: 2;
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 750px;
+  }
+  .orange-card {
+  	margin: 30px 145px;
+  }
+  #profile-img {
+  	width: 25%;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .orange-card {
+  	margin: 30px 120px;
+  }
+  #profile-img {
+  	width: 30%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .orange-card {
+  	margin: 30px 30px;
+  }
+  #profile-img {
+  	width: 40%;
+  }
+}
+
+@media (max-width: 540px) {
+  h1 {
+  	font-size: 20px;
+  }
+  h2 {
+  	font-size: 18px;
+  }
+  body {
+	font-size: 16px;
+  }
+  .container {
+    width: 100%;
+  }
+  .orange-card {
+  	margin: 30px 30px;
+  }
+  #profile-img {
+  	width: 175px;
+  }
+}
+
+.btn {
+	display: block;
+	width: 170px;
+	margin: 30px auto auto auto;
+	background-color: #ff9456;
+	color: white;
+	font-weight: 400;
+	padding: 15px 30px; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(95,108,175,20%);
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #ffb677;
+	color: white;
+}
+
+.container {
+	margin: 40px auto;
+}
+
+.img-rounded {
+	border-radius: 50%;
+}
+
+.list-inline {
+  	padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline; 
+  padding: 0px 20px; 
+}
+
+.list-style-none {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.orange-card {
+	color: white;
+	font-weight: 400;
+	background-color: #ffb677;
+	border-radius: 5px;
+	padding: 20px 50px;
+	box-shadow: 0 10px 30px rgba(95,108,175,20%);
+}
+
+.white-card {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 30px 10px;
+	box-shadow: 0 10px 30px rgba(95,108,175,20%);
+}
+
+#profile-img {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #edf7fa;
+}
+
+#social-icons {
+	font-size: 30px;
+}
